@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @twerp %>
+
+<div>
+  <%= link_to "Edit this twerp", edit_twerp_path(@twerp) %> |
+  <%= link_to "Back to twerps", twerps_path %>
+
+  <%= button_to "Destroy this twerp", @twerp, method: :delete %>
+</div>

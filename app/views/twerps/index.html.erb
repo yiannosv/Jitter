@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Twerps</h1>
+
+<div id="twerps">
+  <% @twerps.each do |twerp| %>
+    <%= render twerp %>
+    <p>
+      <%= link_to "Show this twerp", twerp %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New twerp", new_twerp_path %>

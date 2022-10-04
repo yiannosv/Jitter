@@ -1,0 +1,2 @@
+class Twerp < ApplicationRecord
+end
