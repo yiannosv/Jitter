@@ -1,4 +1,8 @@
-# Demoapp - Replit customized
+# Jitter
+
+For fun and exploration
+
+## A Replit customized Rails vanilla app
 
 This is a Rails Demo app made for testing and exhibition. Forked from a Replit rails template. 
 
