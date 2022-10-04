@@ -5,7 +5,7 @@ This is a Rails Demo app made for testing and exhibition. Forked from a Replit r
 
 ## Running the app
 
-Simple hit run! 
+Simple hit run!  
 
 _You can edit the run command from the `.replit` file._
 
