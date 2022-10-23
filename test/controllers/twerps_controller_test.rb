@@ -45,11 +45,10 @@ class TwerpsControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to twerps_url
   end
-  
-  test 'should have right home page title' do
-    get "/"
-    assert_response :success
-    assert_select 'h1', 'Welcome to the Jitter Homepage!'
-  end
 
+  test 'should have right home page title' do
+    get '/'
+    assert_response :success
+    assert_select 'h1', 'Welcome to the AWESOME Jitter Homepage!'
+  end
 end
