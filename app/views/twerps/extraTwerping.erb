@@ -1,0 +1,18 @@
+  <p>
+    <strong>Most recently Twerped:</strong>
+    <% allTwerp = Twerp.all %>
+    <% last = Twerp.last %>
+    <%= last.content %>
+      
+  </p>
+
+  <p>
+    <strong>Created:</strong>
+    <%= twerp.created_at %>
+  </p>
+
+
+  <p>
+    <strong>Updated:</strong>
+    <%= twerp.updated_at %>
+  </p>
