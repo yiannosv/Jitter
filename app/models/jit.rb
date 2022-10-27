@@ -1,0 +1,2 @@
+class Jit < ApplicationRecord
+end
